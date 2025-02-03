@@ -3,14 +3,26 @@ layout: layout.liquid
 title: "Interstellar Explorer's Log"
 ---
 
-<h1>Welcome to the Explorer's Log</h1>
-<p>These are the records of a lone human drifting through the cosmos.</p>
+<section class="intro">
+  <h1>Welcome to the Explorer's Log</h1>
+  <blockquote>
+    "Somewhere beyond the mapped stars, the last human traveler drifts alone.  
+    Recording the unknown. Searching for meaning in the endless void."
+  </blockquote>
+  <p>
+    This is the personal record of an interstellar explorer, chronicling the mysteries of deep space.  
+    A journey into the unknown, where silence speaks and the void listens.
+  </p>
+</section>
 
-<h2>Recent Entries</h2>
-<ul>
-  {% for post in collections.blog limit:2 %}
-  <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
-  {% endfor %}
-</ul>
+<hr>
 
-<p><a href="/blog/">See All Entries</a></p>
+<section class="blog-preview">
+  <h2>🌠 Recent Entries</h2>
+  <ul class="blog-list">
+    {% for post in collections.blog limit:2 %}
+      <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+    {% endfor %}
+  </ul>
+  <p><a href="/blog/" class="button">🌌 See All Entries</a></p>
+</section>
