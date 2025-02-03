@@ -1,7 +1,3 @@
----
-title: 11ty Boilerplate
----
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,12 +7,23 @@ title: 11ty Boilerplate
   <link rel="stylesheet" href="/styles/screen.css">
 </head>
 <body>
-  <nav>
-    <ul>
-      <li><a href="/" title="Go home">Home</a></li>
-      <li><a href="/about/" title="About the boilerplate">About</a></li>
-    </ul>
-  </nav>
+  <header>
+    <h1>Interstellar Explorer's Log</h1>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about/">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
     {{ content }}
+  </main>
+
+  <footer>
+    <p>&copy; {% year %} Interstellar Explorer</p>
+  </footer>
 </body>
+</html>
 </html>
