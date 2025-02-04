@@ -1,7 +1,7 @@
-/* 🌌 Import Google Fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Raleway:wght@300;500&display=swap');
 
-/* 🌠 Global Styles */
+
 body {
   font-family: 'Raleway', sans-serif;
   background-color: #101820;
@@ -9,10 +9,10 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  overflow-x: hidden; /* Prevents horizontal scrolling */
+  overflow-x: hidden; 
 }
 
-/* 🚀 Starry Animated Background */
+
 .stars, .twinkling, .clouds {
   position: fixed;
   top: 0; left: 0;
@@ -51,7 +51,6 @@ body {
   to { background-position: -10000px 1000px; }
 }
 
-/* 🏠 Header & Navigation */
 header {
   background: rgba(27, 39, 53, 0.9);
   padding: 20px;
@@ -90,7 +89,6 @@ nav a:hover {
   color: #101820;
 }
 
-/* 📜 Main Content */
 main {
   max-width: 800px;
   margin: 40px auto;
@@ -100,7 +98,6 @@ main {
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
 
-/* 🔭 Homepage Styles */
 .intro {
   text-align: center;
   max-width: 700px;
@@ -149,7 +146,6 @@ main {
   text-decoration: underline;
 }
 
-/* 📝 Blog Post Styles */
 .blog-post {
   padding: 20px;
   background: rgba(22, 32, 43, 0.9);
@@ -167,7 +163,6 @@ main {
   line-height: 1.8;
 }
 
-/* 📜 About Page Styling */
 .about-container {
   max-width: 700px;
   margin: 40px auto;
@@ -184,7 +179,7 @@ main {
   text-align: center;
 }
 
-/* 🎛 Buttons */
+
 .button {
   display: inline-block;
   padding: 10px 20px;
@@ -217,7 +212,6 @@ button:hover {
   background: #d6a321;
 }
 
-/* 🌌 Footer */
 footer {
   text-align: center;
   padding: 15px;
@@ -229,7 +223,6 @@ footer p {
   color: #f1f1f1;
 }
 
-/* 📱 Responsive Design */
 @media (max-width: 768px) {
   main {
     padding: 15px;
